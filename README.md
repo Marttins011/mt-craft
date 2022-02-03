@@ -10,3 +10,6 @@ progressBar: https://github.com/qbcore-framework/progressbar (opcional)
 
 # Preview
 https://streamable.com/c1ktcj
+
+# Nosso Discord
+https://discord.gg/AQHbsahZsV
