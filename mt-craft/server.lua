@@ -14,12 +14,12 @@ AddEventHandler("craft:burger1", function()
             Player.Functions.RemoveItem("manteiga", 1)
             Player.Functions.AddItem("hamburgerfrangofeito", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["hamburgerfrangofeito"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Grelhado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Grilled hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'You don\'t have the right items.', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You're missing something..", "error")
     end
 end)
 
@@ -36,12 +36,12 @@ AddEventHandler("craft:burger2", function()
             Player.Functions.RemoveItem("manteiga", 1)
             Player.Functions.AddItem("hamburgerfrangofeito", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["hamburgervacafeito"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Grelhado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Grilled Hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something...", "error")
     end
 end)
 
@@ -58,12 +58,12 @@ AddEventHandler("craft:burger3", function()
             Player.Functions.RemoveItem("manteiga", 1)
             Player.Functions.AddItem("hamburgerfrangofeito", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["hamburgerporcofeito"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Grelhado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Grilled hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'You don\'t have the right items..', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something...", "error")
     end
 end)
 
@@ -80,12 +80,12 @@ AddEventHandler("craft:burger4", function()
             Player.Functions.RemoveItem("manteiga", 1)
             Player.Functions.AddItem("hamburgerfrangofeito", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["hamburgerperufeito"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Grelhado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Grilled Hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'You don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something...", "error")
     end
 end)
 
@@ -100,12 +100,12 @@ AddEventHandler("craft:potato", function()
             Player.Functions.RemoveItem("batatas", 1)
             Player.Functions.AddItem("batatasfritas", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["batatasfritas"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Batatas Fritas.')
+            TriggerClientEvent('QBCore:Notify', src, 'French fries.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'You don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something...", "error")
     end
 end)
 
@@ -120,12 +120,12 @@ AddEventHandler("craft:meat1", function()
             Player.Functions.RemoveItem("vaca", 1)
             Player.Functions.AddItem("hamburgervaca", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["hamburgervaca"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Carne Moldada.')
+            TriggerClientEvent('QBCore:Notify', src, 'Moulded Meat.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'You don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something...", "error")
     end
 end)
 
@@ -140,12 +140,12 @@ AddEventHandler("craft:meat2", function()
             Player.Functions.RemoveItem("porco", 1)
             Player.Functions.AddItem("hamburgerporco", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["hamburgerporco"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Carne Moldada.')
+            TriggerClientEvent('QBCore:Notify', src, 'Moulded Meat.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -160,12 +160,12 @@ AddEventHandler("craft:meat3", function()
             Player.Functions.RemoveItem("peru", 1)
             Player.Functions.AddItem("haburgerperu", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["haburgerperu"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Carne Moldada.')
+            TriggerClientEvent('QBCore:Notify', src, 'Moulded Meat.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -180,12 +180,12 @@ AddEventHandler("craft:meat4", function()
             Player.Functions.RemoveItem("frango", 1)
             Player.Functions.AddItem("haburgerfrango", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["haburgerfrango"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Carne Moldada.')
+            TriggerClientEvent('QBCore:Notify', src, 'Moulded Meat.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -206,12 +206,12 @@ AddEventHandler("craft:bread1", function()
             Player.Functions.RemoveItem("queijo", 1)
             Player.Functions.AddItem("burgercopas", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["burgercopas"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Montado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Mounted Hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -232,12 +232,12 @@ AddEventHandler("craft:bread2", function()
             Player.Functions.RemoveItem("tomate", 1)
             Player.Functions.AddItem("dobleeternal", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["dobleeternal"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Montado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Mounted Hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -260,12 +260,12 @@ AddEventHandler("craft:bread3", function()
             Player.Functions.RemoveItem("tomate", 1)
             Player.Functions.AddItem("royaleternal", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["royaleternal"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Montado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Mounted Hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -286,12 +286,12 @@ AddEventHandler("craft:bread4", function()
             Player.Functions.RemoveItem("queijo", 1)
             Player.Functions.AddItem("shotchicken", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["shotchicken"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Hamburger Montado.')
+            TriggerClientEvent('QBCore:Notify', src, 'Mounted Hamburger.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -316,12 +316,12 @@ AddEventHandler("craft:massa1", function()
             Player.Functions.RemoveItem("manteiga", 1)
             Player.Functions.AddItem("catcakemassa", 5)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["catcakemassa"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Engridientes Prontos.')
+            TriggerClientEvent('QBCore:Notify', src, 'Ready-made Ingredients.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -340,12 +340,12 @@ AddEventHandler("craft:massa2", function()
             Player.Functions.AddItem("farinha", 1)
             Player.Functions.AddItem("pastelnatamassa", 5)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["pastelnatamassa"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Engridientes Prontos.')
+            TriggerClientEvent('QBCore:Notify', src, 'Ready-made Ingredients.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -368,12 +368,12 @@ AddEventHandler("craft:massa3", function()
             Player.Functions.RemoveItem("ovos", 3)
             Player.Functions.AddItem("bolochocolatemassa", 5)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["bolochocolatemassa"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Engridientes Prontos.')
+            TriggerClientEvent('QBCore:Notify', src, 'Ready-made Ingredients.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -396,12 +396,12 @@ AddEventHandler("craft:massa4", function()
             Player.Functions.RemoveItem("fermento", 1)
             Player.Functions.AddItem("cupcakemassa", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["cupcakemassa"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Engridientes Prontos.')
+            TriggerClientEvent('QBCore:Notify', src, 'Ready-made Ingredients.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -416,12 +416,12 @@ AddEventHandler("craft:cake1", function()
             Player.Functions.RemoveItem("catcakemassa", 1)
             Player.Functions.AddItem("catcake", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["catcake"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Bolo Pronto.')
+            TriggerClientEvent('QBCore:Notify', src, 'Cake Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -436,12 +436,12 @@ AddEventHandler("craft:cake2", function()
             Player.Functions.RemoveItem("pastelnatamassa", 1)
             Player.Functions.AddItem("pastelnata", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["pastelnata"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Bolo Pronto.')
+            TriggerClientEvent('QBCore:Notify', src, 'Cake Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -456,12 +456,12 @@ AddEventHandler("craft:cake3", function()
             Player.Functions.RemoveItem("bolochocolatemassa", 1)
             Player.Functions.AddItem("bolochocolate", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["bolochocolate"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Bolo Pronto.')
+            TriggerClientEvent('QBCore:Notify', src, 'Cake Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -476,12 +476,12 @@ AddEventHandler("craft:cake4", function()
             Player.Functions.RemoveItem("cupcakemassa", 1)
             Player.Functions.AddItem("cupcake", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["cupcake"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Bolo Pronto.')
+            TriggerClientEvent('QBCore:Notify', src, 'Cake Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -506,12 +506,12 @@ AddEventHandler("craft:massapizza", function()
             Player.Functions.RemoveItem("raine", 1)
             Player.Functions.AddItem("massapizzas", 5)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["massapizzas"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Massa Pronta.')
+            TriggerClientEvent('QBCore:Notify', src, 'Mass Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -532,12 +532,12 @@ AddEventHandler("craft:pizza1", function()
             Player.Functions.RemoveItem("tomate", 1)
             Player.Functions.AddItem("pizzapeperoni", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["pizzapeperoni"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Pizza Pronta.')
+            TriggerClientEvent('QBCore:Notify', src, 'Pizza Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -558,12 +558,12 @@ AddEventHandler("craft:pizza2", function()
             Player.Functions.RemoveItem("queijo", 2)
             Player.Functions.AddItem("pizzafiambre", 5)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["pizzafiambre"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Pizza Pronta.')
+            TriggerClientEvent('QBCore:Notify', src, 'Pizza Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -582,12 +582,12 @@ AddEventHandler("craft:pizza3", function()
             Player.Functions.RemoveItem("tomate", 1)
             Player.Functions.AddItem("pizza4queijos", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["pizza4queijos"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Pizza Pronta.')
+            TriggerClientEvent('QBCore:Notify', src, 'Pizza Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -610,12 +610,12 @@ AddEventHandler("craft:pizza4", function()
             Player.Functions.RemoveItem("cebola", 1)
             Player.Functions.AddItem("pizzaatum", 2)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["pizzaatum"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Pizza Pronta.')
+            TriggerClientEvent('QBCore:Notify', src, 'Pizza Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
 
@@ -636,11 +636,11 @@ AddEventHandler("craft:prisao1", function()
             Player.Functions.RemoveItem("fiambre", 1)
             Player.Functions.AddItem("tosta", 1)
             TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["tosta"], "add")
-            TriggerClientEvent('QBCore:Notify', src, 'Tosta Pronta.')
+            TriggerClientEvent('QBCore:Notify', src, 'Toast Ready.')
         else
-            TriggerClientEvent('QBCore:Notify', src, 'Não tens os items corretos...', 'error')
+            TriggerClientEvent('QBCore:Notify', src, 'Don\'t have the right items...', 'error')
         end
     else
-        TriggerClientEvent("QBCore:Notify", src, "Falta-te algo...", "error")
+        TriggerClientEvent("QBCore:Notify", src, "You\'re missing something..", "error")
     end
 end)
