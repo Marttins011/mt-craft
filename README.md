@@ -1,7 +1,7 @@
 # qb-craft
 Um sistema de craft QBCore simples.
 
-# Dependencias:
+## Dependencias:
 qb-core: https://github.com/qbcore-framework/qb-core
 qb-target: https://github.com/BerkieBb/qb-target
 qb-menu: https://github.com/qbcore-framework/qb-menu
