@@ -8,8 +8,8 @@ qb-menu: https://github.com/qbcore-framework/qb-menu
 qb-lock: https://github.com/M-Middy/qb-lock (opcional)
 progressBar: https://github.com/qbcore-framework/progressbar (opcional)
 
-# Preview
+# Preview:
 https://streamable.com/c1ktcj
 
-# Nosso Discord
+# Nosso Discord:
 https://discord.gg/AQHbsahZsV
