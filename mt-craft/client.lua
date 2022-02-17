@@ -3,7 +3,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 --------------------------------------BURGERSHOT-----------------------------------------------------------
 RegisterNetEvent('craft:burger1')
 AddEventHandler("craft:burger1", function()
-    QBCore.Functions.Progressbar("craft_burger1", "A grelhar hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_burger1", "Grilling hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -20,7 +20,7 @@ AddEventHandler("craft:burger1", function()
         TriggerServerEvent("craft:burger1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -28,7 +28,7 @@ end)
 
 RegisterNetEvent('craft:burger2')
 AddEventHandler("craft:burger2", function()
-    QBCore.Functions.Progressbar("craft_burger2", "A grelhar hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_burger2", "Grilling hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -45,7 +45,7 @@ AddEventHandler("craft:burger2", function()
         TriggerServerEvent("craft:burger2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -53,7 +53,7 @@ end)
 
 RegisterNetEvent('craft:burger3')
 AddEventHandler("craft:burger3", function()
-    QBCore.Functions.Progressbar("craft_burger3", "A grelhar hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_burger3", "Grilling hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -70,7 +70,7 @@ AddEventHandler("craft:burger3", function()
         TriggerServerEvent("craft:burger3")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -78,7 +78,7 @@ end)
 
 RegisterNetEvent('craft:burger4')
 AddEventHandler("craft:burger4", function()
-    QBCore.Functions.Progressbar("craft_burger4", "A grelhar hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_burger4", "Grilling hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -95,7 +95,7 @@ AddEventHandler("craft:burger4", function()
         TriggerServerEvent("craft:burger4")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -103,7 +103,7 @@ end)
 
 RegisterNetEvent('craft:potato')
 AddEventHandler("craft:potato", function()
-    QBCore.Functions.Progressbar("craft_potatos", "A fritar Batatas", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_potatos", "Frying Potatoes", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -120,7 +120,7 @@ AddEventHandler("craft:potato", function()
         TriggerServerEvent("craft:potato")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -128,7 +128,7 @@ end)
 
 RegisterNetEvent('craft:meat1')
 AddEventHandler("craft:meat1", function()
-    QBCore.Functions.Progressbar("craft_meat1", "A Moldar carne", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_meat1", "Shaping Meat", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -145,7 +145,7 @@ AddEventHandler("craft:meat1", function()
         TriggerServerEvent("craft:meat1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -153,7 +153,7 @@ end)
 
 RegisterNetEvent('craft:meat2')
 AddEventHandler("craft:meat2", function()
-    QBCore.Functions.Progressbar("craft_meat2", "A Moldar carne", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_meat2", "Shaping Meat", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -170,7 +170,7 @@ AddEventHandler("craft:meat2", function()
         TriggerServerEvent("craft:meat2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -178,7 +178,7 @@ end)
 
 RegisterNetEvent('craft:meat3')
 AddEventHandler("craft:meat3", function()
-    QBCore.Functions.Progressbar("craft_meat3", "A Moldar carne", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_meat3", "Shaping Meat", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -195,7 +195,7 @@ AddEventHandler("craft:meat3", function()
         TriggerServerEvent("craft:meat3")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -203,7 +203,7 @@ end)
 
 RegisterNetEvent('craft:meat4')
 AddEventHandler("craft:meat4", function()
-    QBCore.Functions.Progressbar("craft_meat4", "A Moldar carne", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_meat4", "Shaping Meat", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -220,7 +220,7 @@ AddEventHandler("craft:meat4", function()
         TriggerServerEvent("craft:meat4")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -228,7 +228,7 @@ end)
 
 RegisterNetEvent('craft:bread1')
 AddEventHandler("craft:bread1", function()
-    QBCore.Functions.Progressbar("craft_bread1", "A Montar o Hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_bread1", "Riding the Hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -245,7 +245,7 @@ AddEventHandler("craft:bread1", function()
         TriggerServerEvent("craft:bread1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -253,7 +253,7 @@ end)
 
 RegisterNetEvent('craft:bread2')
 AddEventHandler("craft:bread2", function()
-    QBCore.Functions.Progressbar("craft_bread2", "A Montar o Hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_bread2", "Riding the Hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -270,7 +270,7 @@ AddEventHandler("craft:bread2", function()
         TriggerServerEvent("craft:bread2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -278,7 +278,7 @@ end)
 
 RegisterNetEvent('craft:bread3')
 AddEventHandler("craft:bread3", function()
-    QBCore.Functions.Progressbar("craft_bread3", "A Montar o Hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_bread3", "Riding the Hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -295,7 +295,7 @@ AddEventHandler("craft:bread3", function()
         TriggerServerEvent("craft:bread3")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -303,7 +303,7 @@ end)
 
 RegisterNetEvent('craft:bread4')
 AddEventHandler("craft:bread4", function()
-    QBCore.Functions.Progressbar("craft_bread4", "A Montar o Hamburger", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_bread4", "Riding the Hamburger", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -320,7 +320,7 @@ AddEventHandler("craft:bread4", function()
         TriggerServerEvent("craft:bread4")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -328,7 +328,7 @@ end)
 
 RegisterNetEvent('craft:nuget1')
 AddEventHandler("craft:nuget1", function()
-    QBCore.Functions.Progressbar("craft_nuget1", "A Fritar Nuggets", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_nuget1", "The Fry Nuggets", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -345,7 +345,7 @@ AddEventHandler("craft:nuget1", function()
         TriggerServerEvent("craft:nuget1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -353,7 +353,7 @@ end)
 
 RegisterNetEvent('craft:nuget2')
 AddEventHandler("craft:nuget2", function()
-    QBCore.Functions.Progressbar("craft_nuget2", "A Fritar Nuggets", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_nuget2", "The Fry Nuggets", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -370,7 +370,7 @@ AddEventHandler("craft:nuget2", function()
         TriggerServerEvent("craft:nuget2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -385,39 +385,39 @@ RegisterNetEvent('craft:burgers', function()
         },
         {
             id = 2,
-            header = "Hamburger de Frango Grelhado",
-            txt = " 1 Hamburger de Frango Cru | 1 manteiga ",
+            header = "Grilled Chicken Hamburger",
+            txt = " 1 Raw Chicken Hamburger | 1 butter",
             params = {
                 event = "craft:burger1",
             }
         },
         {
             id = 3,
-            header = "Hamburger de Vaca Grelhado",
-            txt = " 1 Hamburger de Vaca Cru | 1 manteiga ",
+            header = "Grilled Cow Burger",
+            txt = " 1 Raw Cow | 1 butter",
             params = {
                 event = "craft:burger2",
             }
         },
         {
             id = 4,
-            header = "Hamburger de Porco Grelhado",
-            txt = " 1 Hamburger de Porco Cru | 1 manteiga ",
+            header = "Grilled Pork Burger",
+            txt = " 1 Raw Pork | 1 butter",
             params = {
                 event = "craft:burger3",
             }
         },
         {
             id = 5,
-            header = "Hamburger de Peru Grelhado",
-            txt = " 1 Hamburger de Peru Cru | 1 manteiga ",
+            header = "Grilled Turkey Hamburger",
+            txt = " 1 Raw Peru | 1 butter",
             params = {
                 event = "craft:burger4",
             }
         },
         {
             id = 6,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -431,20 +431,20 @@ RegisterNetEvent('craft:potatos', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Fritadeira de Batatas",
+            header = "Potato Fryer",
             txt = ""
         },
         {
             id = 2,
-            header = "Batatas Fritas",
-            txt = "1 Batatas do campo",
+            header = "French fries",
+            txt = "1 Field potatoes",
             params = {
                 event = "craft:potato",
             }
         },
         {
             id = 3,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -458,44 +458,44 @@ RegisterNetEvent('craft:meats', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Moldagem das Carnes",
+            header = "Meat Molding",
             txt = ""
         },
         {
             id = 2,
-            header = "Hamburger de Vaca Cru",
-            txt = "1 Carne de Vaca Crua",
+            header = "Raw Cow Hamburger",
+            txt = "1 Raw Beef",
             params = {
                 event = "craft:meat1",
             }
         },
         {
             id = 3,
-            header = "Hamburger de Porco Cru",
-            txt = "1 Carne de Porco Crua",
+            header = "Raw Pork Hamburger",
+            txt = "1 Raw Pork",
             params = {
                 event = "craft:meat2",
             }
         },
         {
             id = 4,
-            header = "Hamburger de Peru Cru",
-            txt = "1 Carne de Peru Crua",
+            header = "Raw Turkey Hamburger",
+            txt = "1 Raw Turkey Meat",
             params = {
                 event = "craft:meat3",
             }
         },
         {
             id = 4,
-            header = "Hamburger de Frango Cru",
-            txt = "1 Carne de Frango Crua",
+            header = "Raw Chicken Hamburger",
+            txt = "1 Raw Chicken Meat",
             params = {
                 event = "craft:meat4",
             }
         },
         {
             id = 5,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -509,13 +509,13 @@ RegisterNetEvent('craft:breads', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Montagem dos Hamburgers",
+            header = "Assembly of hamburgers",
             txt = ""
         },
         {
             id = 2,
-            header = "Hamburger de Copas",
-            txt = "1 Hamburger de Peru Grelhado | 1 Alface Fresca | 1 Cebola | 1 queijo",
+            header = "Hamburger of Hearts",
+            txt = "1 Grilled Turkey Burger | 1 Fresh Lettuce | 1 Onion | 1 cheese",
             params = {
                 event = "craft:bread1",
             }
@@ -523,7 +523,7 @@ RegisterNetEvent('craft:breads', function()
         {
             id = 3,
             header = "Hamburger Doble Eternal",
-            txt = "2 Hamburger de Vaca Grelhado | 2 queijo | 1 alface | 1 tomate",
+            txt = "2 Grilled Cow | 2 cheese | 1 lettuce | 1 tomato",
             params = {
                 event = "craft:bread2",
             }
@@ -531,7 +531,7 @@ RegisterNetEvent('craft:breads', function()
         {
             id = 4,
             header = "Hamburger Royal Eternal",
-            txt = "1 Hamburger de Porco Grelhado | 1 cebola | 1 alface | 1 tomate | 1 queijo",
+            txt = "1 Grilled Pork | 1 onion | 1 lettuce | 1 tomato | 1 cheese",
             params = {
                 event = "craft:bread3",
             }
@@ -539,14 +539,14 @@ RegisterNetEvent('craft:breads', function()
         {
             id = 4,
             header = "Hamburger Chicken Shot",
-            txt = "1 Hamburger de Frango Grelhado | 1 Alface | 1 queijo | 1 tomate",
+            txt = "1 Grilled Chicken | 1 Lettuce | 1 cheese | 1 tomato",
             params = {
                 event = "craft:bread4",
             }
         },
         {
             id = 5,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -560,7 +560,7 @@ end)
 
 RegisterNetEvent('craft:massa1')
 AddEventHandler("craft:massa1", function()
-    QBCore.Functions.Progressbar("craft_massa1", "A Colocar os Ingredietes na Batedeira", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_massa1", "Putting ingredietes in the mixer", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -577,7 +577,7 @@ AddEventHandler("craft:massa1", function()
         TriggerServerEvent("craft:massa1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -585,7 +585,7 @@ end)
 
 RegisterNetEvent('craft:massa2')
 AddEventHandler("craft:massa2", function()
-    QBCore.Functions.Progressbar("craft_massa2", "A Colocar os Ingredietes na Batedeira", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_massa2", "Putting ingredietes in the mixer", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -602,7 +602,7 @@ AddEventHandler("craft:massa2", function()
         TriggerServerEvent("craft:massa2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -610,7 +610,7 @@ end)
 
 RegisterNetEvent('craft:massa3')
 AddEventHandler("craft:massa3", function()
-    QBCore.Functions.Progressbar("craft_massa3", "A Colocar os Ingredietes na Batedeira", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_massa3", "Putting ingredietes in the mixer", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -627,7 +627,7 @@ AddEventHandler("craft:massa3", function()
         TriggerServerEvent("craft:massa3")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -635,7 +635,7 @@ end)
 
 RegisterNetEvent('craft:massa4')
 AddEventHandler("craft:massa4", function()
-    QBCore.Functions.Progressbar("craft_massa4", "A Colocar os Ingredietes na Batedeira", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_massa4", "Putting ingredietes in the mixer", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -652,7 +652,7 @@ AddEventHandler("craft:massa4", function()
         TriggerServerEvent("craft:massa4")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -660,7 +660,7 @@ end)
 
 RegisterNetEvent('craft:cake1')
 AddEventHandler("craft:cake1", function()
-    QBCore.Functions.Progressbar("craft_cake1", "A Colocar Massa no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_cake1", "Putting Dough in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -677,7 +677,7 @@ AddEventHandler("craft:cake1", function()
         TriggerServerEvent("craft:cake1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -685,7 +685,7 @@ end)
 
 RegisterNetEvent('craft:cake2')
 AddEventHandler("craft:cake2", function()
-    QBCore.Functions.Progressbar("craft_cake2", "A Colocar Massa no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_cake2", "Putting Dough in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -702,7 +702,7 @@ AddEventHandler("craft:cake2", function()
         TriggerServerEvent("craft:cake2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -710,7 +710,7 @@ end)
 
 RegisterNetEvent('craft:cake3')
 AddEventHandler("craft:cake3", function()
-    QBCore.Functions.Progressbar("craft_cake3", "A Colocar Massa no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_cake3", "Putting Dough in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -727,7 +727,7 @@ AddEventHandler("craft:cake3", function()
         TriggerServerEvent("craft:cake3")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -735,7 +735,7 @@ end)
 
 RegisterNetEvent('craft:cake4')
 AddEventHandler("craft:cake4", function()
-    QBCore.Functions.Progressbar("craft_cake4", "A Colocar Massa no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_cake4", "Putting Dough in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -752,7 +752,7 @@ AddEventHandler("craft:cake4", function()
         TriggerServerEvent("craft:cake4")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -762,44 +762,44 @@ RegisterNetEvent('craft:massas', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "batedeira",
+            header = "mixer",
             txt = ""
         },
         {
             id = 2,
-            header = "Massa para Cat Cake",
-            txt = "2 Açucar Amarelo | 1 Farinha sem Fermento | 2 Fermento em Pó | 3 Ovos de Galinha | 1 Manteiga",
+            header = "Pasta for Cat Cake",
+            txt = "2 Yellow Sugar | 1 Flour without | 2 Baking Powder | 3 Chicken Eggs | 1 Butter",
             params = {
                 event = "craft:massa1",
             }
         },
         {
             id = 3,
-            header = "Massa para Pastel Nata",
-            txt = "2 Ovos de Galinha | 2 Açucar Branco | 1 Farinha sem Fermento",
+            header = "Pastry for Pastel Nata",
+            txt = "2 Chicken Eggs | 2 White Sugar | 1 Flour without Yeast",
             params = {
                 event = "craft:massa2",
             }
         },
         {
             id = 4,
-            header = "Massa para Bolo de Chocolate",
-            txt = "2 Barra de Chocolate | 1 Farinha | 1 Açucar Branco | 1 Fermento em Pó | 3 Ovos",
+            header = "Chocolate Cake Dough",
+            txt = "2 Chocolate Bar | 1 Flour | 1 White Sugar | 1 Baking Powder | 3 Eggs",
             params = {
                 event = "craft:massa3",
             }
         },
         {
             id = 4,
-            header = "Massa para Cup Cake",
-            txt = "1 farinha sem Feermento | 1 Barra de Chocolate | 2 Ovos | 1 Açucar Amarelo | 1 Fermento em Pó",
+            header = "Pasta for Cup Cake",
+            txt = "1 flour without | Feermento 1 Chocolate Bar | 2 Eggs | 1 Yellow Sugar | 1 Baking Powder",
             params = {
                 event = "craft:massa4",
             }
         },
         {
             id = 5,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -850,7 +850,7 @@ RegisterNetEvent('craft:cakes', function()
         },
         {
             id = 6,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -864,7 +864,7 @@ end)
 
 RegisterNetEvent('craft:massapizza')
 AddEventHandler("craft:massapizza", function()
-    QBCore.Functions.Progressbar("craft_massapizza", "A Colocar Ingredientes na Batedeira", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_massapizza", "Putting Ingredients in the Mixer", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -881,7 +881,7 @@ AddEventHandler("craft:massapizza", function()
         TriggerServerEvent("craft:massapizza")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -889,7 +889,7 @@ end)
 
 RegisterNetEvent('craft:pizza1')
 AddEventHandler("craft:pizza1", function()
-    QBCore.Functions.Progressbar("craft_pizza1", "A Colocar Pizza no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_pizza1", "Putting Pizza in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -906,7 +906,7 @@ AddEventHandler("craft:pizza1", function()
         TriggerServerEvent("craft:pizza1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -914,7 +914,7 @@ end)
 
 RegisterNetEvent('craft:pizza2')
 AddEventHandler("craft:pizza2", function()
-    QBCore.Functions.Progressbar("craft_pizza2", "A Colocar Pizza no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_pizza2", "Putting Pizza in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -931,7 +931,7 @@ AddEventHandler("craft:pizza2", function()
         TriggerServerEvent("craft:pizza2")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -939,7 +939,7 @@ end)
 
 RegisterNetEvent('craft:pizza3')
 AddEventHandler("craft:pizza3", function()
-    QBCore.Functions.Progressbar("craft_pizza3", "A Colocar Pizza no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_pizza3", "Putting Pizza in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -956,7 +956,7 @@ AddEventHandler("craft:pizza3", function()
         TriggerServerEvent("craft:pizza3")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -964,7 +964,7 @@ end)
 
 RegisterNetEvent('craft:pizza4')
 AddEventHandler("craft:pizza4", function()
-    QBCore.Functions.Progressbar("craft_pizza4", "A Colocar Pizza no Forno", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_pizza4", "Putting Pizza in the Oven", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -981,7 +981,7 @@ AddEventHandler("craft:pizza4", function()
         TriggerServerEvent("craft:pizza4")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
@@ -991,20 +991,20 @@ RegisterNetEvent('craft:massapizzas', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Batedeira",
+            header = "mixer",
             txt = ""
         },
         {
             id = 2,
-            header = "Massa para Pizzas",
-            txt = "3 Farinha sem Fermento | 2 Fermento em Pó | 1 Manteiga | 1 Agua Raine | 3 Ovos de Galinha",
+            header = "Pizza Dough",
+            txt = "3 Flour without | 2 Baking Powder | 1 Butter | 1st Agua Raine | 3 Chicken Eggs",
             params = {
                 event = "craft:massapizza",
             }
         },
         {
             id = 3,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -1018,44 +1018,44 @@ RegisterNetEvent('craft:pizzas', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Forno de Pizzas",
+            header = "Pizza Oven",
             txt = ""
         },
         {
             id = 2,
-            header = "Pizza de Peperoni",
-            txt = "1 Massa de Pizza | 2 Peperoni | 2 queijo | 1 Tomate Fresco",
+            header = "pepperoni pizza",
+            txt = "1 Pizza | 2nd Peperoni | 2 cheese | 1 Fresh tomato",
             params = {
                 event = "craft:pizza1",
             }
         },
         {
             id = 3,
-            header = "Pizza de Fiambre",
-            txt = "1 Massa de Pizza | 2 Fiambre | 1 Tomate | 2 Queijo",
+            header = "Ham Pizza",
+            txt = "1 Pizza | 2 ham | 1 Tomato | 2 Cheese",
             params = {
                 event = "craft:pizza2",
             }
         },
         {
             id = 4,
-            header = "Pizza de 4 Queijos",
-            txt = "1  Massa de Pizza | 4 Queijo | 1 Tomate",
+            header = "4 Cheese Pizza",
+            txt = "1  Pizza | 4 Cheese | 1 Tomato",
             params = {
                 event = "craft:pizza3",
             }
         },
         {
             id = 5,
-            header = "Pizza de Atum",
-            txt = "1 Massa de Pizza | 3 Atum Enlatado | 1 Queijo | 1 Tomate | 1 Cebola",
+            header = "Tuna Pizza",
+            txt = "1 Pizza | 3 Canned Tuna | 1 Cheese | 1 Tomato | 1 Onion",
             params = {
                 event = "craft:pizza4",
             }
         },
         {
             id = 6,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -1071,20 +1071,20 @@ RegisterNetEvent('craft:prisao', function()
     exports['qb-menu']:openMenu({
         {
             id = 1,
-            header = "Fogão Prisão",
+            header = "Prison Stove",
             txt = ""
         },
         {
             id = 2,
-            header = "Tosta Mista",
-            txt = "2 Queijo | 1 Fiambre | 1 Pão para Tostas",
+            header = "Mixed Toast",
+            txt = "2 | cheese 1 ham | 1 Bread for Toasts",
             params = {
                 event = "craft:prisao1",
             }
         },
         {
             id = 3,
-            header = "Fechar",
+            header = "Close",
             txt = "",
             params = {
                 event = "qb-menu:closeMenu",
@@ -1096,7 +1096,7 @@ end)
 
 RegisterNetEvent('craft:prisao1')
 AddEventHandler("craft:prisao1", function()
-    QBCore.Functions.Progressbar("craft_prisao1", "A Fazer uma Tosta", 5000, false, true, {
+    QBCore.Functions.Progressbar("craft_prisao1", "Making a Toast", 5000, false, true, {
         disableMovement = true,
         disableCarMovement = true,
         disableMouse = false,
@@ -1113,7 +1113,7 @@ AddEventHandler("craft:prisao1", function()
         TriggerServerEvent("craft:prisao1")
         ClearPedTasks(playerPed)
     else
-        QBCore.Functions.Notify("Falhado!", "error")
+        QBCore.Functions.Notify("Failed!", "error")
         ClearPedTasks(playerPed)
         end
     end)
