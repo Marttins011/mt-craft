@@ -16,7 +16,7 @@ AddEventHandler("craft:burger1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:burger1")
         ClearPedTasks(playerPed)
     else
@@ -41,7 +41,7 @@ AddEventHandler("craft:burger2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:burger2")
         ClearPedTasks(playerPed)
     else
@@ -66,7 +66,7 @@ AddEventHandler("craft:burger3", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:burger3")
         ClearPedTasks(playerPed)
     else
@@ -91,7 +91,7 @@ AddEventHandler("craft:burger4", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:burger4")
         ClearPedTasks(playerPed)
     else
@@ -116,7 +116,7 @@ AddEventHandler("craft:potato", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:potato")
         ClearPedTasks(playerPed)
     else
@@ -141,7 +141,7 @@ AddEventHandler("craft:meat1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:meat1")
         ClearPedTasks(playerPed)
     else
@@ -166,7 +166,7 @@ AddEventHandler("craft:meat2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:meat2")
         ClearPedTasks(playerPed)
     else
@@ -191,7 +191,7 @@ AddEventHandler("craft:meat3", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:meat3")
         ClearPedTasks(playerPed)
     else
@@ -216,7 +216,7 @@ AddEventHandler("craft:meat4", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:meat4")
         ClearPedTasks(playerPed)
     else
@@ -241,7 +241,7 @@ AddEventHandler("craft:bread1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:bread1")
         ClearPedTasks(playerPed)
     else
@@ -266,7 +266,7 @@ AddEventHandler("craft:bread2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:bread2")
         ClearPedTasks(playerPed)
     else
@@ -291,7 +291,7 @@ AddEventHandler("craft:bread3", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:bread3")
         ClearPedTasks(playerPed)
     else
@@ -316,7 +316,7 @@ AddEventHandler("craft:bread4", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:bread4")
         ClearPedTasks(playerPed)
     else
@@ -341,7 +341,7 @@ AddEventHandler("craft:nuget1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:nuget1")
         ClearPedTasks(playerPed)
     else
@@ -366,7 +366,7 @@ AddEventHandler("craft:nuget2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:nuget2")
         ClearPedTasks(playerPed)
     else
@@ -573,7 +573,7 @@ AddEventHandler("craft:massa1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:massa1")
         ClearPedTasks(playerPed)
     else
@@ -598,7 +598,7 @@ AddEventHandler("craft:massa2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:massa2")
         ClearPedTasks(playerPed)
     else
@@ -623,7 +623,7 @@ AddEventHandler("craft:massa3", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:massa3")
         ClearPedTasks(playerPed)
     else
@@ -648,7 +648,7 @@ AddEventHandler("craft:massa4", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:massa4")
         ClearPedTasks(playerPed)
     else
@@ -673,7 +673,7 @@ AddEventHandler("craft:cake1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:cake1")
         ClearPedTasks(playerPed)
     else
@@ -698,7 +698,7 @@ AddEventHandler("craft:cake2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:cake2")
         ClearPedTasks(playerPed)
     else
@@ -723,7 +723,7 @@ AddEventHandler("craft:cake3", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:cake3")
         ClearPedTasks(playerPed)
     else
@@ -748,7 +748,7 @@ AddEventHandler("craft:cake4", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:cake4")
         ClearPedTasks(playerPed)
     else
@@ -877,7 +877,7 @@ AddEventHandler("craft:massapizza", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:massapizza")
         ClearPedTasks(playerPed)
     else
@@ -902,7 +902,7 @@ AddEventHandler("craft:pizza1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:pizza1")
         ClearPedTasks(playerPed)
     else
@@ -927,7 +927,7 @@ AddEventHandler("craft:pizza2", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:pizza2")
         ClearPedTasks(playerPed)
     else
@@ -952,7 +952,7 @@ AddEventHandler("craft:pizza3", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:pizza3")
         ClearPedTasks(playerPed)
     else
@@ -977,7 +977,7 @@ AddEventHandler("craft:pizza4", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:pizza4")
         ClearPedTasks(playerPed)
     else
@@ -1109,7 +1109,7 @@ AddEventHandler("craft:prisao1", function()
         local playerPed = PlayerPedId()
         local success = exports['qb-lock']:StartLockPickCircle(1,30)
    if success then
-        StopAnimTask(ped, dict, "machinic_loop_mechandplayer", 1.0)
+        StopAnimTask(playerPed, dict, "machinic_loop_mechandplayer", 1.0)
         TriggerServerEvent("craft:prisao1")
         ClearPedTasks(playerPed)
     else
